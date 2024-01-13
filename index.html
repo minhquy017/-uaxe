@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/js/main.js">
+    <title>Đua xe</title>
+</head>
+<body>
+    <div class="light">
+        <div class="red" id="red"></div>
+        <div class="yellow" id="yellow"></div>
+        <div class="green" id="green"></div>
+        <button id="btn" type="button" onclick="start()">Start!</button>
+        <h2 id="go"></h2>
+    </div>
+    <div>
+        xăng
+        <div class="tank">
+            <div class="fuel" id="fuel1"></div>
+        </div>
+        <div class="tank">
+            <div class="fuel" id="fuel2"></div>
+        </div>
+    </div>
+    <div class="tutorial"><span style="color: red;">Red</span>Xe đỏ bấm "D" <br><span style="color: yellow;">Yellow</span>Xe Vàng bấm '&#9658'</div>
+    <div class="bg">
+        <img src="./Public/image/car1.jpg" alt="car 1" class="car" id="car1" style="margin-top: 40px; margin-bottom: 70px;">
+        <img src="./Public/image/car_2.png" alt="car 2" class="car" id="car2">
+        <img src="./public/image/finish.png" alt="finish" class="finish">
+    </div>
+    <button class="revange" type="button" id="start_again" onclick="again()">Thử lại</button>
+    <script src="./public/js/main.js"></script>
+    
+</body>
+</html>
